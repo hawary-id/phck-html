@@ -189,70 +189,84 @@
                                 <div class="text-md text-slate-600">Isi artikel terbaru yang sudah dipost ....</div>
                             </div>
                         </a>
-                        <a href="" class="group border-b-2">
-                            <div class="h-36 md:h-40 w-full bg-[url('/src/assets/images/901397118881659423496.webp')] bg-cover transition ease-in-out group-hover:brightness-50"></div>
-                            <div class="flex flex-col px-3 pb-3">
-                                <div class="text-lg text-pink-600 font-semibold mt-1 md:mt-2 group-hover:text-pink-800">Kegiatan kerja bakti lingkungan</div>
-                                <div class="flex justify-between">
-                                    <div class="text-xs text-slate-500"><span class="bi bi-calendar mr-1"></span>10-Oct-2022</div>
-                                    <div class="text-xs text-slate-500"><span class="bi bi-eye mr-1"></span>10,000</div>
-                                </div>
-                                <div class="text-md text-slate-600">Isi artikel terbaru yang sudah dipost ....</div>
-                            </div>
-                        </a>
                         <a href="" class="py-2 text-center text-pink-500 font-semibold hover:text-pink-700">
                             Lihat Semua
                         </a>
                     </div>
                 </div>
-                <div class="border rounded-md bg-white shadow-md px-3 py-5">
-                    <form class="" action="" method="post">
+                <div class="border rounded-md bg-white shadow-md px-3 py-5 mb-3">
+                    <div class="text-md text-pink-500 font-semibold pb-2 border-b">Hubungi Kami</div>
+                    <form class="mt-3" action="" method="post">
                         <label class="block mb-3">
                             <span class="block text-sm font-medium text-slate-700">Email</span>
-                            <input type="email" placeholder="Alamat Email" class="mt-2 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                            <input type="email" placeholder="Masukkan alamat email disini" class="mt-2 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
                             focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
                             disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
                             invalid:border-pink-500 invalid:text-pink-600
                             focus:invalid:border-pink-500 focus:invalid:ring-pink-500"/>
                         </label>
                         <label class="block mb-3">
-                            <span class="block text-sm font-medium text-slate-700">Password</span>
-                            <input type="password" placeholder="Password" class="mt-2 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                            <span class="block text-sm font-medium text-slate-700">Subject</span>
+                            <input type="text" placeholder="Masukkan subject email disini" class="mt-2 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
                             focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
                             disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
                             invalid:border-pink-500 invalid:text-pink-600
                             focus:invalid:border-pink-500 focus:invalid:ring-pink-500"/>
                         </label>
-                        <label class="block mb-3 float-right">
-                            <a href="" class="block text-sm font-medium text-pink-500 hover:text-pink-700">Lupa Password</a>
+                        <label class="block mb-3">
+                            <span class="block text-sm font-medium text-slate-700">Pesan</span>
+                            <textarea placeholder="Masukkan pesan disini" class="mt-2 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                            focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                            disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+                            invalid:border-pink-500 invalid:text-pink-600
+                            focus:invalid:border-pink-500 focus:invalid:ring-pink-500"></textarea>
                         </label>
-                        <button type="submit" class="mt-1 block w-full px-3 py-2 bg-pink-500 border border-slate-300 rounded-md text-sm shadow-sm text-slate-50 hover:bg-pink-600">Masuk</button>
-                        <span class="block py-2 text-sm text-center text-slate-400">Atau</span>
-                        <a href="" class="block w-full px-3 py-2 text-center bg-white border border-pink-500 rounded-md text-sm shadow-sm text-pink-600 hover:bg-pink-500 hover:text-slate-50 hover:border-slate-400">Daftar</a>
+                        <label class="block mb-3">
+                            <span class="block text-sm font-medium text-slate-700">Captcha</span>
+                            <div class="flex mt-2 gap-2 w-full">
+                                <div class="flex-auto border border-slate-300 rounded-md py-1 px-3 font-semibold bg-rose-200">455222</div>
+                                <a href="" class="w-10 border border-slate-400 rounded-md py-1 px-3 bg-pink-500 justify-items-center">
+                                    <span class="bi bi-arrow-clockwise text-slate-50"></span>
+                                </a>
+                            </div>
+                        </label>
+                        <label class="block mb-3">
+                            <span class="block text-sm font-medium text-slate-700">Masukkan Captcha</span>
+                            <input type="text" placeholder="Masukkan captcha disini" class="mt-2 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                            focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                            disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+                            invalid:border-pink-500 invalid:text-pink-600
+                            focus:invalid:border-pink-500 focus:invalid:ring-pink-500"/>
+                        </label>
+                        <button type="submit" class="mt-1 block w-full px-3 py-2 bg-pink-500 border border-slate-300 rounded-md text-sm shadow-sm text-slate-50 hover:bg-pink-600">Kirim</button>
                     </form>
+                </div>
+                <div class="border rounded-md bg-white shadow-md">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d126896.96403512817!2d106.3862533178918!3d-6.325272581666412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x2e420f6d97c88c11%3A0x2496b69badf092b2!2sPerumahan%20Puri%20Harmoni%20Cikasungka%2C%20Cikasungka%2C%20Kec.%20Solear%2C%20Kabupaten%20Tangerang%2C%20Banten%2015730!3m2!1d-6.3381776!2d106.4132185!5e0!3m2!1sen!2sid!4v1666155418270!5m2!1sen!2sid"
+                        class="h-60 w-full border border-slate-400 rounded-md " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
                 </div>
             </div>
     </section>
-    <footer class="hidden md:flex">
-        <div class="flex w-full justify-center bg-white py-5 mt-3">
-            <div class="text-slate-500">Copyright 2022 | <a href="" class="text-pink-600 font-semibold">www.phck.com</a></div>
+    <footer class="hidden md:flex ">
+        <div class="flex w-full justify-center bg-white py-5 mt-3 ">
+            <div class="text-slate-500 ">Copyright 2022 | <a href=" " class="text-pink-600 font-semibold ">www.phck.com</a></div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js "></script>
     <script>
-        var swiper = new Swiper(".swiper-banner", {
+        var swiper = new Swiper(".swiper-banner ", {
             spaceBetween: 10,
             loop: true,
             pagination: {
-                el: ".swiper-pagination",
+                el: ".swiper-pagination ",
                 clickable: true,
             },
         });
-        var swiper2 = new Swiper(".swiper-card", {
+        var swiper2 = new Swiper(".swiper-card ", {
             spaceBetween: 20,
-            slidesPerView: "auto",
+            slidesPerView: "auto ",
             pagination: {
-                el: ".swiper-pagination",
+                el: ".swiper-pagination ",
             },
         });
     </script>
